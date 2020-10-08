@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/MemoryGame/static/css/main.f2aaa50e.chunk.css",
+    "main.js": "/MemoryGame/static/js/main.578d15a5.chunk.js",
+    "main.js.map": "/MemoryGame/static/js/main.578d15a5.chunk.js.map",
+    "runtime-main.js": "/MemoryGame/static/js/runtime-main.ff755aa8.js",
+    "runtime-main.js.map": "/MemoryGame/static/js/runtime-main.ff755aa8.js.map",
+    "static/js/2.707ed840.chunk.js": "/MemoryGame/static/js/2.707ed840.chunk.js",
+    "static/js/2.707ed840.chunk.js.map": "/MemoryGame/static/js/2.707ed840.chunk.js.map",
+    "index.html": "/MemoryGame/index.html",
+    "precache-manifest.e55dedf4d3b654aea68f1ff93b887765.js": "/MemoryGame/precache-manifest.e55dedf4d3b654aea68f1ff93b887765.js",
+    "service-worker.js": "/MemoryGame/service-worker.js",
+    "static/css/main.f2aaa50e.chunk.css.map": "/MemoryGame/static/css/main.f2aaa50e.chunk.css.map",
+    "static/js/2.707ed840.chunk.js.LICENSE.txt": "/MemoryGame/static/js/2.707ed840.chunk.js.LICENSE.txt",
+    "static/media/apple.png": "/MemoryGame/static/media/apple.0a2a3411.png",
+    "static/media/avocado.png": "/MemoryGame/static/media/avocado.56e8eabd.png",
+    "static/media/banana.png": "/MemoryGame/static/media/banana.944da2e9.png",
+    "static/media/bravo.gif": "/MemoryGame/static/media/bravo.ac3dceec.gif",
+    "static/media/corn.png": "/MemoryGame/static/media/corn.411d4325.png",
+    "static/media/lemon.png": "/MemoryGame/static/media/lemon.2c7096b5.png",
+    "static/media/lettuce.png": "/MemoryGame/static/media/lettuce.ba36bf41.png",
+    "static/media/onion.png": "/MemoryGame/static/media/onion.78415daa.png",
+    "static/media/strawberry.png": "/MemoryGame/static/media/strawberry.10c41a10.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ff755aa8.js",
+    "static/js/2.707ed840.chunk.js",
+    "static/css/main.f2aaa50e.chunk.css",
+    "static/js/main.578d15a5.chunk.js"
+  ]
+}
