@@ -1,0 +1,17 @@
+@import './components/GameBoard/style.scss';
+@import './components/ResetButton/style.scss';
+@import './components/Card/style.scss';
+@import './components/WinModal/style.scss';
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: 'Montserrat', sans-serif;
+}
