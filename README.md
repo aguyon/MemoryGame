@@ -2,7 +2,7 @@
 
 ## Technos utilisées
 
-* [React](https://reactjs.org/) - v.16 minimum
+* [React](https://reactjs.org/)
 * [Typescript](https://www.typescriptlang.org/)
 * [SCSS](https://sass-lang.com/)
 
@@ -18,7 +18,7 @@ Une grille `4x4` qui a pour contenu les cartes du jeux.
 
 | Idle  | Checked  | Disabled  |
 |:-:|:-:|:-:|
-| ![](/assets/images/.docs/components/Card/Recto.jpg) | ![](/assets/images/.docs/components/Card/Verso.jpg) | ![](/assets/images/.docs/components/Card/Found.jpg) |
+| ![](/assets/images/Card/Recto.jpg) | ![](/assets/images/Card/Verso.jpg) | ![](/assets/images/Card/Found.jpg) |
 
 **Faces :**
 La carte a deux faces : 
@@ -35,21 +35,21 @@ La carte a deux faces :
 
 ### Timer
 
-![Timer à zéro](/assets/images/.docs/components/Timer.jpg)
+![Timer à zéro](/assets/images/Timer.jpg)
 
 **Comportement :** Dès que l'utilisateur clique sur la première carte le `Timer` ce lance. 
 
 ### Compteur de clics
 
-![Compteur de cliques](/assets/images/.docs/components/Counter.jpg)
+![Compteur de cliques](/assets/images/Counter.jpg)
 
 **Comportement :** Dès que l'utilisateur clique sur deux cartes, alors le compteur est incrémenter d'un clique. 
 
 ### Reset
 
-![Button reset](/assets/images/.docs/components/Reset.png)
+![Button reset](/assets/images/Reset.png)
 
 Un `bouton` permettant de réinitialiser la grille et de remélanger les paires, réinitialise le `Timer` et le `Compteur`.
 
 **Action :** 
-* `click` -> Réinitialise la partie en cours. Si aucune partie n'est en cours, alors le bouton doit être désactivé.
+* `click` -> Réinitialise la partie en cours. Si aucune partie n'est en cours, alors le bouton est désactivé.
