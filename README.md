@@ -1,13 +1,5 @@
 <h1 align="center">Memory Game</h1>
 
-<p align="center">
-    <a href="#prérequis">Prérequis</a> • <a href="#déroulement">Déroulement</a> • <a href="#composants">Composants</a> • <a href="#bonus">Bonus</a>
-</p>
-
-<div align="center">
-    <img src="./assets/images/.docs/Grid.jpg" alt="Jeux du Memory en cours" />
-</div>
-
 ## Technos utilisées
 
 * [React](https://reactjs.org/) - v.16 minimum
@@ -18,7 +10,7 @@
 
 ### Grille
 
-![Grille du Memory](/assets/images/.docs/components/Grid.jpg)
+![Grille du Memory](/assets/images/Grid.jpg)
 
 Une grille `4x4` qui a pour contenu les cartes du jeux.
 
