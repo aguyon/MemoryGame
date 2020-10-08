@@ -18,7 +18,7 @@ Une grille `4x4` qui a pour contenu les cartes du jeux.
 
 | Idle  | Checked  | Disabled  |
 |:-:|:-:|:-:|
-| ![](/assets/images/Card/Recto.jpg) | ![](/assets/images/Card/Verso.jpg) | ![](/assets/images/Card/Found.jpg) |
+| ![](/assets/images/components/Card/Recto.jpg) | ![](/assets/images/components/Card/Verso.jpg) | ![](/assets/images/components/Card/Found.jpg) |
 
 **Faces :**
 La carte a deux faces : 
@@ -35,19 +35,19 @@ La carte a deux faces :
 
 ### Timer
 
-![Timer à zéro](/assets/images/Timer.jpg)
+![Timer à zéro](/assets/images/components/Timer.jpg)
 
 **Comportement :** Dès que l'utilisateur clique sur la première carte le `Timer` ce lance. 
 
 ### Compteur de clics
 
-![Compteur de cliques](/assets/images/Counter.jpg)
+![Compteur de cliques](/assets/images/components/Counter.jpg)
 
 **Comportement :** Dès que l'utilisateur clique sur deux cartes, alors le compteur est incrémenter d'un clique. 
 
 ### Reset
 
-![Button reset](/assets/images/Reset.png)
+![Button reset](/assets/images/components/Reset.png)
 
 Un `bouton` permettant de réinitialiser la grille et de remélanger les paires, réinitialise le `Timer` et le `Compteur`.
 
