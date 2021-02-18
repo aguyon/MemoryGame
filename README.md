@@ -9,5 +9,6 @@
 
 ## Principe du jeu
 
-Le jeu se compose de paires de cartes portant des illustrations identiques. L'ensemble des cartes est mélangé, puis répartie dans les cases.   
+Le jeu se compose de paires de cartes portant des illustrations identiques. L'ensemble des cartes est mélangé, puis répartie dans les cases.
+
 Le jeu se termine quand toutes les paires de cartes ont été découvertes. 
