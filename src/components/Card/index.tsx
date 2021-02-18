@@ -1,39 +1,29 @@
-import React, { FunctionComponent } from 'react';
+import React, { FC } from 'react';
 
 interface CardsProps {
   id: number;
   value: string;
   width: number;
   height: number;
-  flipped: () => void;
+  flipped: boolean;
   solved: boolean;
   disabled: boolean;
   handleClick: (id: number) => void;
 }
 
-const Card: FunctionComponent<CardsProps> = ({
-  id,
-  value,
-  width,
-  height,
-  flipped,
-  solved,
-  disabled,
-  handleClick,
-  children
-}) => {
+const Card: FC<CardsProps> = (props) => {
   return (
     <div
       className="card"
-      style={{ width, height }}
-      onClick={() => (disabled ? null : handleClick(id))}
+      style={{ width: props.width, height: props.height, opacity: props.solved ? 0.7 : undefined }}
+      onClick={() => (props.disabled ? null : props.handleClick(props.id))}
     >
       <img
-        style={{ width, height, opacity: flipped || solved ? 1 : 0 }}
-        src={flipped || solved ? require(`../../assets/${value}.png`) : null}
-        alt=""
+        style={{ width: props.width, height: props.height, opacity: props.flipped || props.solved ? 1 : 0 }}
+        src={props.flipped || props.solved ? require(`../../assets/${props.value}.png`).default : null}
+        alt="card"
       />
-      {children}
+      {props.children}
     </div>
   );
 };

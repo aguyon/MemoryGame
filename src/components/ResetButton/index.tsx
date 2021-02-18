@@ -1,10 +1,10 @@
-import React, { FunctionComponent } from 'react';
+import React, { FC } from 'react';
 
 interface ButtonProps {
   onClick: () => void;
 }
 
-const ResetButton: FunctionComponent<ButtonProps> = (props) => {
+const ResetButton: FC<ButtonProps> = (props) => {
   return (
     <button onClick={props.onClick} className="button">
       {props.children}

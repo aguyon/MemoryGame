@@ -1,4 +1,4 @@
-import React, { FunctionComponent } from 'react';
+import React, { FC } from 'react';
 
 import Card from '../Card';
 
@@ -10,26 +10,20 @@ interface GameBoardProps {
   handleClick: (id: number) => void;
 }
 
-const GameBoard: FunctionComponent<GameBoardProps> = ({
-  cards,
-  flipped,
-  solved,
-  disabled,
-  handleClick
-}) => {
+const GameBoard: FC<GameBoardProps> = (props: GameBoardProps) => {
   return (
     <div className="board-section">
-      {cards.map(card => (
+      {props.cards.map((card) => (
         <Card
           key={card.id}
           id={card.id}
           value={card.value}
           width={100}
           height={100}
-          flipped={flipped.includes(card.id)}
-          solved={solved.includes(card.id)}
-          handleClick={handleClick}
-          disabled={disabled || solved.includes(card.id)}
+          flipped={props.flipped.includes(card.id)}
+          solved={props.solved.includes(card.id)}
+          handleClick={props.handleClick}
+          disabled={props.disabled || props.solved.includes(card.id)}
         />
       ))}
     </div>

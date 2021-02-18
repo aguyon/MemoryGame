@@ -1,4 +1,4 @@
-import React, { FunctionComponent, Dispatch, SetStateAction } from 'react';
+import React, { FC, Dispatch, SetStateAction } from 'react';
 
 import bravo from '../../assets/bravo.gif';
 
@@ -8,22 +8,18 @@ interface WinModalProps {
   setModal: Dispatch<SetStateAction<boolean>>;
 }
 
-const WinModal: FunctionComponent<WinModalProps> = ({
-  click,
-  time,
-  setModal
-}) => {
-  const finalTime = `${
-    time / 60 < 10 ? `0${(time / 60).toFixed(0)}` : (time / 60).toFixed(0)
-  }:${time % 60 < 10 ? `0${(time % 60).toFixed(0)}` : (time % 60).toFixed(0)}`;
+const WinModal: FC<WinModalProps> = (props: WinModalProps) => {
+  const finalTime = `${props.time / 60 < 10 ? `0${(props.time / 60).toFixed(0)}` : (props.time / 60).toFixed(0)}:${
+    props.time % 60 < 10 ? `0${(props.time % 60).toFixed(0)}` : (props.time % 60).toFixed(0)
+  }`;
 
   return (
-    <div id="overlay" className="modal-overlay" onClick={() => setModal(false)}>
+    <div id="overlay" className="modal-overlay" onClick={() => props.setModal(false)}>
       <div className="modal-content">
         <h4>You did it!</h4>
-        <img src={bravo} alt="bravo" />
+        <img src={bravo} alt="well done game is over" />
         <p>
-          {click / 2} clicks - {finalTime}
+          {props.click / 2} clicks - {finalTime}
         </p>
       </div>
     </div>
