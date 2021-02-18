@@ -1,5 +1,5 @@
 <h1 align="center">Memory Game</h1>
-<h2 align="center">Projet Personnel</h2>
+<p align="center">Projet Personnel</p>
 
 ## Technos utilisées
 
